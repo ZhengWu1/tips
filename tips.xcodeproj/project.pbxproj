@@ -13,6 +13,7 @@
 		04BA2E591AAFFB5200711F94 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BA2E581AAFFB5200711F94 /* Images.xcassets */; };
 		04BA2E5C1AAFFB5200711F94 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04BA2E5A1AAFFB5200711F94 /* LaunchScreen.xib */; };
 		04BA2E681AAFFB5300711F94 /* tipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BA2E671AAFFB5300711F94 /* tipsTests.swift */; };
+		04BA2E721AB0140B00711F94 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BA2E711AB0140B00711F94 /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		04BA2E611AAFFB5300711F94 /* tipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BA2E661AAFFB5300711F94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04BA2E671AAFFB5300711F94 /* tipsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsTests.swift; sourceTree = "<group>"; };
+		04BA2E711AB0140B00711F94 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		04BA2E4E1AAFFB5200711F94 /* tips */ = {
 			isa = PBXGroup;
 			children = (
+				04BA2E731AB0141200711F94 /* viewControllers */,
 				04BA2E511AAFFB5200711F94 /* AppDelegate.swift */,
 				04BA2E531AAFFB5200711F94 /* ViewController.swift */,
 				04BA2E551AAFFB5200711F94 /* Main.storyboard */,
@@ -110,6 +113,14 @@
 				04BA2E661AAFFB5300711F94 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04BA2E731AB0141200711F94 /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				04BA2E711AB0140B00711F94 /* SettingViewController.swift */,
+			);
+			name = viewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +225,7 @@
 			files = (
 				04BA2E541AAFFB5200711F94 /* ViewController.swift in Sources */,
 				04BA2E521AAFFB5200711F94 /* AppDelegate.swift in Sources */,
+				04BA2E721AB0140B00711F94 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
